@@ -20,11 +20,12 @@ export class StoresController { // FIX: Changed from UsersController to StoresCo
 
  @Get()
 async findAll(
+  @Query('userId') userId: number,
   @Query('search') search: string,
   @Query('sortBy') sortBy: string,
   @Query('order') order: 'ASC' | 'DESC',
 ) {
-  // Passes search, sortBy, and order to the service
-  return this.storesService.findAll(search, sortBy, order);
+  // Passes userId, search, sortBy, and order to the service
+  return this.storesService.findAll(userId, search, sortBy, order);
 }
 }
