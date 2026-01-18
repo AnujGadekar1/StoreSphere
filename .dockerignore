@@ -1,0 +1,17 @@
+# Node
+**/node_modules
+**/dist
+**/build
+
+# Env
+**/.env
+**/.env.*
+
+# Git
+.git
+.gitignore
+
+# OS / Editor
+.DS_Store
+.vscode
+.idea

@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules
+npm-debug.log
+yarn.lock
+
+# Build output
+dist
+build
+
+# Environment files
+.env
+.env.*
+
+# Git
+.git
+.gitignore
+
+# OS / Editor
+.DS_Store
+.vscode
+.idea
