@@ -1,0 +1,19 @@
+// Path: .gitignore
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production
+build/
+dist/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+
+# IDE Logs
+.vscode/
+.idea/
+*.log
